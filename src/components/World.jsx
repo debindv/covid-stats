@@ -17,6 +17,7 @@ function World() {
                 <Table striped bordered hover>
                     <thead>
                         <tr>
+                        <th>Flag</th>
                         <th>Country</th>
                         <th>Total Cases</th>
                         <th>Total Death</th>
