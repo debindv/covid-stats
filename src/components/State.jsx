@@ -38,7 +38,7 @@ function State() {
                                 <Card>
                                     <Card.Header>
                                     <Accordion.Toggle as={Button} variant="primary" eventKey={k}>
-                                        {itm}  <span className="btn btn-secondary">Total Cases - {total_cases}</span> <span className="btn btn-secondary">Total Active - {active}</span> <span className="btn btn-secondary">Total Recovered - {recovered}</span> <span className="btn btn-secondary">Total Death - {total_death}</span>
+                                        {itm} <span className="btn btn-secondary">Total Cases - {total_cases}</span> <span className="btn btn-secondary">Total Active - {active}</span> <span className="btn btn-secondary">Total Recovered - {recovered}</span> <span className="btn btn-secondary">Total Death - {total_death}</span>
                                     </Accordion.Toggle>
                                     </Card.Header>
                                     <Accordion.Collapse eventKey={k}>

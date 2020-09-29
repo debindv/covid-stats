@@ -49,7 +49,7 @@ function India() {
                 <div className="col-md-12">
                     <div className="row">
                         <div className="col-md-3">
-                            <Card className="badge badge-info" style={{ width: '18rem' }}>
+                            <Card className="badge badge-danger" style={{ width: '18rem' }}>
                                 <Card.Body className="text-center">
                                     <Card.Title>TOTAL DEATH</Card.Title>
                                         <h3>{death}</h3>
@@ -61,7 +61,7 @@ function India() {
                             </Card>
                         </div>
                         <div className="col-md-3">
-                            <Card className="badge badge-info" style={{ width: '18rem' }}>
+                            <Card className="badge badge-warning" style={{ width: '18rem' }}>
                                 <Card.Body className="text-center">
                                     <Card.Title>ACTIVE CASES</Card.Title>
                                         <h3>{active}</h3>
@@ -73,7 +73,7 @@ function India() {
                             </Card>
                         </div>
                         <div className="col-md-3">
-                            <Card className="badge badge-info" style={{ width: '18rem' }}>
+                            <Card className="badge badge-success" style={{ width: '18rem' }}>
                                 <Card.Body className="text-center">
                                     <Card.Title>RECOVERY</Card.Title>
                                         <h3>{recovered}</h3>
